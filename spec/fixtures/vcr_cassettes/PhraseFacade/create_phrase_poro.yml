@@ -1,0 +1,786 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:03:46 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=MlmiaTRNwCVFU8pGDfCGD5EfZ3/BK/RmY8mH+3OMTj5+reA9hvPVB4+hRin0TgTZ0NpjsLGd0XT+NsPbbuthnAK01CUHDdutYsLlcIHzyWBxovywckqcmhu7UdBN;
+        Expires=Thu, 30 May 2024 17:03:46 GMT; Path=/
+      - AWSALBCORS=MlmiaTRNwCVFU8pGDfCGD5EfZ3/BK/RmY8mH+3OMTj5+reA9hvPVB4+hRin0TgTZ0NpjsLGd0XT+NsPbbuthnAK01CUHDdutYsLlcIHzyWBxovywckqcmhu7UdBN;
+        Expires=Thu, 30 May 2024 17:03:46 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=q7766k70p92nkdtc0clntd0dgg; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '82838378'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:03:46 GMT
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:05:59 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=XnBMs6MDGS6kytaNWY1f0sB4Ng6jcUyOYrt9CGH4f+BtOUYIk+NRVNRwF9GK0aeishHe/sYU272r4zkjyT4rmYgk6IKS5p7O7rEPA9afIE8IniYKVOswq7n2/MkY;
+        Expires=Thu, 30 May 2024 17:05:59 GMT; Path=/
+      - AWSALBCORS=XnBMs6MDGS6kytaNWY1f0sB4Ng6jcUyOYrt9CGH4f+BtOUYIk+NRVNRwF9GK0aeishHe/sYU272r4zkjyT4rmYgk6IKS5p7O7rEPA9afIE8IniYKVOswq7n2/MkY;
+        Expires=Thu, 30 May 2024 17:05:59 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=dcr4ct4vfdpn4sqfekhv9r6e2l; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '73598776'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:05:59 GMT
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:06:51 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=lirU/WI30yVy8kCOWN+CxeWOCku4SbX5k7+bzNAVt8LHP7qGf9owDlqxkRRokRV+By1TSMN7Ik8bWqqyHPw3ktJRaO1rSP2gkHRxzqrMOZis6zje1BcB1poEpJZ5;
+        Expires=Thu, 30 May 2024 17:06:51 GMT; Path=/
+      - AWSALBCORS=lirU/WI30yVy8kCOWN+CxeWOCku4SbX5k7+bzNAVt8LHP7qGf9owDlqxkRRokRV+By1TSMN7Ik8bWqqyHPw3ktJRaO1rSP2gkHRxzqrMOZis6zje1BcB1poEpJZ5;
+        Expires=Thu, 30 May 2024 17:06:51 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=r8om20rmg9sirahb3nfna87ik1; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '86868053'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:06:51 GMT
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:13:21 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=B055T4LFQMxj/CT7RodZ84TV48IlP59SAOg5J4Ft9hA7Zv1HCTpunMwck2x8QA8XKcLjP44sM3X9KHKjjoCPhjj7aKrIJ47rzHO9Y0fWvUwfkkP7qGGHXIT+0Q4K;
+        Expires=Thu, 30 May 2024 17:13:20 GMT; Path=/
+      - AWSALBCORS=B055T4LFQMxj/CT7RodZ84TV48IlP59SAOg5J4Ft9hA7Zv1HCTpunMwck2x8QA8XKcLjP44sM3X9KHKjjoCPhjj7aKrIJ47rzHO9Y0fWvUwfkkP7qGGHXIT+0Q4K;
+        Expires=Thu, 30 May 2024 17:13:20 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=af2h8gqbjpi216tdrolkkbi5sg; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '69238825'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:13:21 GMT
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:30:50 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=QxvLT6uo/LBoInlzwzrm2QzM4i7+YPUFRMU6Aay/GzVy1YFMlnYOGy4cPQJ3Ksn1FvGsmS5khaPQvxgz4S08Zu1zK6rXCSP96mDLqr+pthYFDQIxkvD5vnridT2j;
+        Expires=Thu, 30 May 2024 17:30:49 GMT; Path=/
+      - AWSALBCORS=QxvLT6uo/LBoInlzwzrm2QzM4i7+YPUFRMU6Aay/GzVy1YFMlnYOGy4cPQJ3Ksn1FvGsmS5khaPQvxgz4S08Zu1zK6rXCSP96mDLqr+pthYFDQIxkvD5vnridT2j;
+        Expires=Thu, 30 May 2024 17:30:49 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=m650jist3hiqcsjpvmt8ta3ror; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '81952822'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:30:50 GMT
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:46:18 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=qW1ROz/YXpaD2AP1HjscknaGQE7x5P6dlGGDpQ/ax+MjKTUWtAyVPG29USniFnKAsAp/KWNqF97RXR5CvRDVZf1lFf6FzDfgkk0mx2xCIY9QaVH+LUNFO3gAkzv4;
+        Expires=Thu, 30 May 2024 17:46:18 GMT; Path=/
+      - AWSALBCORS=qW1ROz/YXpaD2AP1HjscknaGQE7x5P6dlGGDpQ/ax+MjKTUWtAyVPG29USniFnKAsAp/KWNqF97RXR5CvRDVZf1lFf6FzDfgkk0mx2xCIY9QaVH+LUNFO3gAkzv4;
+        Expires=Thu, 30 May 2024 17:46:18 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=rj4bshoo55b0vhb69scvc293bi; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '83952583'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:46:18 GMT
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:46:52 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=ibUfK3rJt3wy2XfNAQp5n/rMcj1QQDtWqnJ3lFa3+WcATxECXG2ldwqzR7THd1nRT3hwVapC1xE8UIHPidiZkCDrkn8OipU3aPCNMoz+19XWWduDXKJ3rntfH4zk;
+        Expires=Thu, 30 May 2024 17:46:52 GMT; Path=/
+      - AWSALBCORS=ibUfK3rJt3wy2XfNAQp5n/rMcj1QQDtWqnJ3lFa3+WcATxECXG2ldwqzR7THd1nRT3hwVapC1xE8UIHPidiZkCDrkn8OipU3aPCNMoz+19XWWduDXKJ3rntfH4zk;
+        Expires=Thu, 30 May 2024 17:46:52 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=in6eb0vkscf2r921nh8hof4b4g; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '98796947'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:46:52 GMT
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:47:13 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=8aGcjxel6VzCORe6hoWzJBcIAXvrWgCitLmE6CJ+wmSl0dYkgn5Voju8P1HLr811uOnE2GdCJEqLHlfqauuDDI5XgHAXam0JLlxPkvmRb5GOBasYO7De59Vx0NuU;
+        Expires=Thu, 30 May 2024 17:47:13 GMT; Path=/
+      - AWSALBCORS=8aGcjxel6VzCORe6hoWzJBcIAXvrWgCitLmE6CJ+wmSl0dYkgn5Voju8P1HLr811uOnE2GdCJEqLHlfqauuDDI5XgHAXam0JLlxPkvmRb5GOBasYO7De59Vx0NuU;
+        Expires=Thu, 30 May 2024 17:47:13 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=cne1cu8vur6lkumok6s2gmogcp; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '87950188'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:47:13 GMT
+- request:
+    method: get
+    uri: https://www.stands4.com/services/v2/phrases.php?format=json&phrase=exhausted&tokenid=DONT_SHARE_MY_KEY&uid=DONT_SHARE_MY_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 May 2024 17:48:45 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2397'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=dvnlN1wsggpQWrPt0wze5FRf5IOEmhDMXeWTL7TDBl5RNNI8xyQnGkN7Gx28yW19NnxFwY9BxrDW6Fk5dfKH4vQHjdofAhDgIzxxI8XOEsYL6eGOC9vCCMWH2zzf;
+        Expires=Thu, 30 May 2024 17:48:45 GMT; Path=/
+      - AWSALBCORS=dvnlN1wsggpQWrPt0wze5FRf5IOEmhDMXeWTL7TDBl5RNNI8xyQnGkN7Gx28yW19NnxFwY9BxrDW6Fk5dfKH4vQHjdofAhDgIzxxI8XOEsYL6eGOC9vCCMWH2zzf;
+        Expires=Thu, 30 May 2024 17:48:45 GMT; Path=/; SameSite=None; Secure
+      - PHPSESSID=je6in8ou7r03tamvj3s2ui9ufk; path=/
+      Server:
+      - Apache/2.4.58 () OpenSSL/1.0.2k-fips
+      X-Powered-By:
+      - PHP/8.1.23
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Requested-With
+      X-Varnish:
+      - '93159498'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"term":"all in","explanation":"exhausted","example":{}},{"term":"copiam
+        quam potui persecutus sum","explanation":"I have exhausted all my material.","example":{}},{"term":"dead
+        beat","explanation":"exhausted","example":{}},{"term":"dog-tired","explanation":"exhausted","example":{}},{"term":"je
+        n''en puis plus","explanation":"I am done up, exhausted.","example":{}},{"term":"je
+        suis \u00e0 bout de force","explanation":"I am exhausted, done up.","example":{}},{"term":"knackered","explanation":"Exhausted;
+        very tired","example":"I can''t go out tonight, I''m knackered"},{"term":"knock
+        up","explanation":"To become exhausted or worn out; to fail of strength; to
+        become wearied, as with labor; to give out.","example":{}},{"term":"ma patience
+        est \u00e0 bout","explanation":"My patience is exhausted.","example":{}},{"term":"Nantucket
+        sleigh ride","explanation":"An obsolete and dangerous method of whale hunting
+        in which a small boat manned by rowers and a harpooner, or a series of small
+        boats tied together, would be attached to a whale by means of a harpoon and
+        would then be towed by the creature at high speed across the water''s surface,
+        until the whale eventually became exhausted.","example":{}},{"term":"on the
+        ropes","explanation":"Leaning against the ropes of the boxing ring, as when
+        exhausted and nearing defeat or collapse.","example":"The champ had his opponent
+        on the ropes at the end of the third round and knocked him out in the fourth."},{"term":"rode
+        hard and put away wet","explanation":"A graphic way of saying someone is exhausted
+        or. overworked","example":"I&#039;ve worked so hard I feel like I&#039;ve
+        been rode hard and put away wet."},{"term":"shit out of luck","explanation":"Completely
+        out of luck; in unfortunate circumstances such that all options for achieving
+        one''s goal are exhausted; unlucky; screwed.","example":"There are no tickets
+        left. I guess we''re shit out of luck.\r"},{"term":"shop till you drop","explanation":"Shop
+        a lot \/ until you''re exhausted","example":{}},{"term":"wear out","explanation":"To
+        become exhausted, tired, fatigued, or weary, as by continued strain or exertion.","example":"I''m
+        wearing out, guys. Time to go to sleep."},{"term":"you drained me dry","explanation":"Your
+        incessant and extended discussion, queries and theories have been so exuberant
+        that I am exhausted.","example":"The day''s events drained me of energy."}]}'
+  recorded_at: Thu, 23 May 2024 17:48:45 GMT
+recorded_with: VCR 6.2.0
